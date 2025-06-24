@@ -4,7 +4,7 @@ Este projeto é um **analisador sintático preditivo descendente** (LL(1)) imple
 
 ---
 
-## 📚 Estrutura da Gramática (LL(1) ajustada)
+## Estrutura da Gramática (LL(1) ajustada)
 
 ```
 EXPR       ::= TERM EXPR'
@@ -22,7 +22,7 @@ ARG        ::= EXPR
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 ├── parser.py         # Implementação do parser
@@ -32,7 +32,7 @@ ARG        ::= EXPR
 
 ---
 
-## ▶️ Como executar
+## Como executar
 
 ### 1. Tenha o Python 3 instalado
 
@@ -52,7 +52,7 @@ python teste_parser.py
 
 ---
 
-## ✅ Exemplos de expressões válidas
+## Exemplos de expressões válidas
 
 - `(a + b) * c[3]`
 - `f(1, x + 2, g(4)) - 7`
@@ -60,7 +60,7 @@ python teste_parser.py
 
 ---
 
-## ❌ Exemplos de expressões inválidas
+## Exemplos de expressões inválidas
 
 - `a + * b` → operador mal posicionado  
 - `f(1, )` → argumento vazio  
@@ -69,7 +69,7 @@ python teste_parser.py
 
 ---
 
-## 🧑‍💻 Créditos
+## Créditos
 
 Trabalho desenvolvido por:
 
